@@ -1,6 +1,6 @@
 const Counter = (props) => {
-  const decrement = () => props.count((prevCount) => prevCount - 1);
-  const increment = () => props.count((prevCount) => prevCount + 1);
+  const decrement = () => props.setCount((prevCount) => prevCount - 1);
+  const increment = () => props.setCount((prevCount) => prevCount + 1);
 
   return (
     <div className="counter-container">

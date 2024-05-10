@@ -15,7 +15,7 @@ function App() {
         <em>Counter</em>
       </h2>
 
-      <Counter count={count} />
+      <Counter count={count} setCount={setCount} />
 
       <br />
       <h2>
